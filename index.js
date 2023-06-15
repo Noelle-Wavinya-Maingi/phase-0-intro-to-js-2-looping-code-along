@@ -4,11 +4,11 @@ let name = ["Guadalupe", "Ollie", "Aki"];
 
 let occasion = "surprise";
 
-function writeCards(names, occasion) {
+function writeCards(name, occasion) {
   const thankyouMessage = [];
-  for (let i = 0; i < names.length; i++) {
+  for (let i = 0; i < name.length; i++) {
     thankyouMessage.push(
-      `Thank you, ${names[i]}, for the wonderful ${occasion} gift!`
+      `Thank you, ${name[i]}, for the wonderful ${occasion} gift!`
     );
   }
   return thankyouMessage;
