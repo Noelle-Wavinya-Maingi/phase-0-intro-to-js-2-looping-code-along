@@ -14,8 +14,6 @@ function writeCards(name, occasion) {
   return thankyouMessage;
 }
 
-let log;
-
 function countDown(number) {
   for (let i = number; i >= 0; i--) {
     console.log(i);
